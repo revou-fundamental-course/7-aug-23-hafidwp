@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Segitiga</h1>
+      <p>Pilih opsi:</p>
+      <button id="luasButton">Luas Segitiga</button>
+      <button id="kelilingButton">Keliling Segitiga</button>
+      <br />
+
+      <div id="luasForm" style="display: none">
+        <img src="Luas.jpg" alt="Gambar saya" width="400" height="320" />
+        <h3>Luas</h3>
+        <div class="input-container">
+          <label for="alas">Panjang Alas</label>
+          <input type="number" id="alas" />
+        </div>
+        <div class="input-container">
+          <label for="tinggi">Tinggi</label>
+          <input type="number" id="tinggi" />
+        </div>
+        <button id="hitungHasilLuas">Hitung</button>
+      </div>
+      <div id="kelilingForm" style="display: none">
+        <img src="Keliling.jpg" alt="Gambar saya" width="400" height="320" />
+        <h3>Keliling</h3>
+        <div class="input-container">
+          <label for="sisiA">Panjang Sisi A</label>
+          <input type="number" id="sisiA" />
+        </div>
+        <div class="input-container">
+          <label for="sisiB">Panjang Sisi B</label>
+          <input type="number" id="sisiB" />
+        </div>
+        <div class="input-container">
+          <label for="sisiC">Panjang Sisi C</label>
+          <input type="number" id="sisiC" />
+        </div>
+        <button id="hitungHasilKeliling">Hitung</button>
+      </div>
+      <div class="container-hasil">
+        <table id="resultTable" style="display: none">
+          <tr>
+            <th>Hasil Hitung</th>
+          </tr>
+          <tr>
+            <td id="resultOutput" class="centered-output"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="js/scrpit.js"></script>
+  </body>
+</html>
