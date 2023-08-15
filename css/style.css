@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #33bbc5;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+#luasButton,
+#kelilingButton {
+  background-color: #c8ffe0;
+  color: #102c57;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  transition-delay: 1ms;
+}
+
+#luasButton:hover,
+#kelilingButton:hover {
+  background-color: #85e6c5;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#hitungHasilLuas,
+#hitungHasilKeliling {
+  background-color: #c8ffe0;
+  color: #102c57;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition-delay: 1ms;
+}
+
+#hitungHasilLuas,
+#hitungHasilKeliling:hover {
+  background-color: #85e6c5;
+}
+.centered-output {
+  text-align: center;
+}
+
+.container-hasil {
+  justify-content: center;
+  display: flex;
+  margin-top: 3rem;
+}
